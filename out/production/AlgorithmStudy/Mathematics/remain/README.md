@@ -19,7 +19,4 @@
 1 <br>
 1 <br>
 0 <br>
-
-
-### 추가 공부 사항
-https://st-lab.tistory.com/19
+0
