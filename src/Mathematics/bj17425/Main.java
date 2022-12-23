@@ -9,10 +9,16 @@ import java.util.Arrays;
 
 public class Main {
     static final int max = 1_000_001;
+//    static final int max =10;
     public static void main(String[] agrs) throws IOException {
+
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        StringBuffer sb = new StringBuffer();
+
         int testCase = Integer.parseInt(br.readLine());
-        int[] caseValue = new int[max];
+
+        long[] caseValue = new long[max];
+        long[] caseSum = new long[max];
 
         Arrays.fill(caseValue,1);
 
@@ -22,13 +28,15 @@ public class Main {
             }
         }
 
-        long[] caseSum = new long[max];
         for(int i=1; i<max; i++) {
             caseSum[i] = caseSum[i-1] + caseValue[i];
         }
 
-        for (int i = 0; i < testCase; i++) {
-            System.out.println(caseSum[Integer.parseInt(br.readLine())]);
+        while (testCase-- > 0){
+            int caseDate = Integer.parseInt(br.readLine());
+
+            sb.append(caseSum[caseDate]).append("\n");
         }
+        System.out.println(sb);
     }
 }
