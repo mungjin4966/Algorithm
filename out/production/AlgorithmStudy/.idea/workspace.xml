@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cb02e772-088f-47cf-a037-210db101076c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Mathematics/bj2609/Bj2609.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Mathematics/bj2609/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Mathematics/bj2609/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/Mathematics/bj2609/Bj2609Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmStudy/Mathematics/bj17425/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgorithmStudy/Mathematics/bj17425/Main.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="JUnit3 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2JGS2O5ho686aSJzLGLJWFSf8Y5" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit3",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3": "junit.framework.TestCase",
+    "last_opened_file_path": "D:/Algorithm/Algorithm",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm"
+  }
+}]]></component>
+  <component name="RunManager" selected="JUnit.Bj2609Test.testNumberTheory">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Mathematics.Measure.Main" />
+      <module name="AlgorithmStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Mathematics.Measure.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Mathematics.bj17425.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Mathematics.bj17425.Main" />
+      <module name="AlgorithmStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Mathematics.bj17425.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Mathematics.bj2609.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Mathematics.bj2609.Main" />
+      <module name="AlgorithmStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Mathematics.bj2609.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Mathematics.measureofsum.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Mathematics.measureofsum.Main" />
+      <module name="AlgorithmStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Mathematics.measureofsum.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Bj2609Test.testNumberTheory" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AlgorithmStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Mathematics.bj2609.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Mathematics.bj2609" />
+      <option name="MAIN_CLASS_NAME" value="Mathematics.bj2609.Bj2609Test" />
+      <option name="METHOD_NAME" value="testNumberTheory" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.Bj2609Test.testNumberTheory" />
+        <item itemvalue="Application.Mathematics.bj2609.Main" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Mathematics.bj17425.Main" />
+        <item itemvalue="Application.Mathematics.measureofsum.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cb02e772-088f-47cf-a037-210db101076c" name="Changes" comment="" />
+      <created>1671702718535</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1671702718535</updated>
+      <workItem from="1671702719775" duration="7084000" />
+      <workItem from="1671792341883" duration="7022000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
