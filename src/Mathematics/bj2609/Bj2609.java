@@ -10,19 +10,14 @@ public class Bj2609 {
     public StringBuffer numberTheory() throws IOException {
 
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-
         StringTokenizer st = new StringTokenizer(br.readLine(), " ");
         StringBuffer sb = new StringBuffer();
 
         int num1 = Integer.parseInt(st.nextToken());
         int num2 = Integer.parseInt(st.nextToken());
-        System.out.println(num1);
-        System.out.println(num2);
         int gcd = getGCD(Math.max(num1, num2), Math.min(num1,num2));
 
-        sb.append(gcd).append("\n");
-        sb.append((num1*num2)/gcd);
-
+        sb.append(gcd).append("\n").append((num1*num2)/gcd);
         return sb;
     }
 

@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cb02e772-088f-47cf-a037-210db101076c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Mathematics/bj2609/Bj2609.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Mathematics/bj2609/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Mathematics/bj2609/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/Mathematics/bj2609/Bj2609Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmStudy/Mathematics/bj17425/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgorithmStudy/Mathematics/bj17425/Main.class" afterDir="false" />
+    <list default="true" id="bec815a4-4560-4f4f-a5d4-d11f9cd3e17c" name="Changes" comment="# &lt;type&gt;: &lt;subject&gt;&#10;##### Subject 50 characters ################# -&gt; |&#10;&#10;&#10;# Body Message&#10;######## Body 72 characters ####################################### -&gt; |&#10;&#10;# Issue Tracker Number or URL&#10;&#10;# --- COMMIT END ---&#10;# Type can be&#10;#   feat    : new feature&#10;#   fix     : bug fix&#10;#   refactor: refactoring production code&#10;#   style   : formatting, missing semi colons, etc; no code change&#10;#   docs    : changes to documentation&#10;#   test    : adding or refactoring tests&#10;#             no productin code change&#10;#   chore   : updating grunt tasks etc&#10;#             no production code change&#10;# ------------------&#10;# Remember me ~&#10;#   Capitalize the subject line&#10;#     제목줄은 대문자로 시작한다.&#10;#   Use the imperative mood in the subject line&#10;#     제목줄은 명령어로 작성한다.&#10;#   Do not end the subject line with a period&#10;#     제목줄은 마침표로 끝내지 않는다.&#10;#   Separate subject from body with a blank line&#10;#     본문과 제목에는 빈줄을 넣어서 구분한다.&#10;#   Use the body to explain what and why vs. how&#10;#     본문에는 &quot;어떻게&quot; 보다는 &quot;왜&quot;와 &quot;무엇을&quot; 설명한다.&#10;#   Can use multiple lines with &quot;-&quot; for bullet points in body&#10;#     본문에 목록을 나타낼때는 &quot;-&quot;로 시작한다.&#10;# ------------------">
+      <change beforePath="$PROJECT_DIR$/src/Mathematics/bj17425/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mathematics/bj17425/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Mathematics/bj2609/Bj2609.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mathematics/bj2609/Bj2609.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/bj17425/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/bj17425/MainTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,7 +18,6 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
-        <option value="JUnit3 Test Class" />
       </list>
     </option>
   </component>
@@ -30,7 +27,8 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2JGS2O5ho686aSJzLGLJWFSf8Y5" />
+  <component name="ProjectId" id="2JDO0ux9TAlplQFcRedeWi1WHwA" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
@@ -38,31 +36,27 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit3",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3": "junit.framework.TestCase",
-    "last_opened_file_path": "D:/Algorithm/Algorithm",
+    "last_opened_file_path": "/Users/lacred/Desktop/develope/study/Algorithm",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm"
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settings.ide.settings.file-colors"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.Bj2609Test.testNumberTheory">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Mathematics.Measure.Main" />
-      <module name="AlgorithmStudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Mathematics.Measure.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/Greedy" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.Bj2609Test">
     <configuration name="Mathematics.bj17425.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Mathematics.bj17425.Main" />
       <module name="AlgorithmStudy" />
@@ -76,8 +70,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Mathematics.bj2609.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Mathematics.bj2609.Main" />
+    <configuration name="Bj2609Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AlgorithmStudy" />
       <extension name="coverage">
         <pattern>
@@ -85,19 +78,9 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Mathematics.measureofsum.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Mathematics.measureofsum.Main" />
-      <module name="AlgorithmStudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Mathematics.measureofsum.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="PACKAGE_NAME" value="Mathematics.bj2609" />
+      <option name="MAIN_CLASS_NAME" value="Mathematics.bj2609.Bj2609Test" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -118,26 +101,59 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MainTest.테스트" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AlgorithmStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bj17425.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bj17425" />
+      <option name="MAIN_CLASS_NAME" value="bj17425.MainTest" />
+      <option name="METHOD_NAME" value="테스트" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainTest.약수의_합_테스트" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AlgorithmStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bj17425.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bj17425" />
+      <option name="MAIN_CLASS_NAME" value="bj17425.MainTest" />
+      <option name="METHOD_NAME" value="약수의_합_테스트" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Bj2609Test" />
         <item itemvalue="JUnit.Bj2609Test.testNumberTheory" />
-        <item itemvalue="Application.Mathematics.bj2609.Main" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.MainTest.약수의_합_테스트" />
         <item itemvalue="Application.Mathematics.bj17425.Main" />
-        <item itemvalue="Application.Mathematics.measureofsum.Main" />
+        <item itemvalue="JUnit.MainTest.테스트" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="cb02e772-088f-47cf-a037-210db101076c" name="Changes" comment="" />
-      <created>1671702718535</created>
+      <changelist id="bec815a4-4560-4f4f-a5d4-d11f9cd3e17c" name="Changes" comment="" />
+      <created>1671608968748</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1671702718535</updated>
-      <workItem from="1671702719775" duration="7084000" />
-      <workItem from="1671792341883" duration="7022000" />
+      <updated>1671608968748</updated>
+      <workItem from="1671608971389" duration="312000" />
+      <workItem from="1671609362221" duration="891000" />
+      <workItem from="1671610285487" duration="22553000" />
     </task>
     <servers />
   </component>

@@ -9,7 +9,6 @@ import java.util.Arrays;
 
 public class Main {
     static final int max = 1_000_001;
-//    static final int max =10;
     public static void main(String[] agrs) throws IOException {
 
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -21,13 +20,13 @@ public class Main {
         long[] caseSum = new long[max];
 
         Arrays.fill(caseValue,1);
-
+        // 로그 형태로 감소함 logN
         for (int i = 2; i < max; i++) {
             for (int j = 1; i*j < max; j++) {
                 caseValue[i*j] += i;
             }
         }
-
+        // 컴퓨터에서 ++는 연산에 강함
         for(int i=1; i<max; i++) {
             caseSum[i] = caseSum[i-1] + caseValue[i];
         }

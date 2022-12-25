@@ -15,8 +15,9 @@ public class MainTest {
         bj17425 = new Bj17425();
     }
 
+// 1초 기준 1억회
 
-    @Test(timeout = 1000)
+    @Test(timeout = 1000) //최대한 오래 걸리는 테스트 케이스를 사용해야됨
     public void 약수의_합_테스트() throws IOException {
 
         String first = "5\n" +
