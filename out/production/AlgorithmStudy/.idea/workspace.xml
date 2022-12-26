@@ -5,14 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cb02e772-088f-47cf-a037-210db101076c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/junit-jupiter-api-5.8.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Mathematics/bj1978/Bj1978.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Mathematics/bj1978/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Mathematics/bj1978/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Mathematics/bj1978/testclass/Bj1978.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/Mathematics/bj1978/testclass/TestBj1978.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlgorithmStudy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorithmStudy.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmStudy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgorithmStudy/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmStudy/AlgorithmStudy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgorithmStudy/AlgorithmStudy.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/Mathematics/bj1978/Bj1978Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmStudy/Mathematics/bj1929/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgorithmStudy/Mathematics/bj1929/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmStudy/Mathematics/bj1929/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgorithmStudy/Mathematics/bj1929/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmStudy/src/Mathematics/bj1929/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgorithmStudy/src/Mathematics/bj1929/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Mathematics/bj1929/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mathematics/bj1929/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Mathematics/bj1929/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mathematics/bj1929/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,21 +68,85 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Algorithm\Algorithm\lib" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="Mathematics.bj1978" />
+    </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="Mathematics.bj1978" />
       <recent name="Mathematics.bj1978.testclass" />
       <recent name="Mathematics.bj2609" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestBj1978">
-    <configuration name="Mathematics.bj2609.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Mathematics.bj2609.Main" />
+  <component name="RunManager" selected="JUnit.Bj1978Test.testDecimalCnt">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Mathematics.bj1929.Main" />
       <module name="AlgorithmStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Mathematics.bj2609.*" />
+          <option name="PATTERN" value="Mathematics.bj1929.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Mathematics.bj1978.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Mathematics.bj1978.Main" />
+      <module name="AlgorithmStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Mathematics.bj1978.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Bj1978Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AlgorithmStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Mathematics.bj1929.Bj1978Test" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Mathematics.bj1978" />
+      <option name="MAIN_CLASS_NAME" value="Mathematics.bj1929.Bj1978Test" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Bj1978Test.testDecimal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AlgorithmStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Mathematics.bj1929.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Mathematics.bj1978" />
+      <option name="MAIN_CLASS_NAME" value="Mathematics.bj1929.Bj1978Test" />
+      <option name="METHOD_NAME" value="testDecimal" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Bj1978Test.testDecimalCnt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AlgorithmStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Mathematics.bj1978.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Mathematics.bj1978" />
+      <option name="MAIN_CLASS_NAME" value="Mathematics.bj1978.Bj1978Test" />
+      <option name="METHOD_NAME" value="testDecimalCnt" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -102,60 +166,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Bj2609Test.testNumberTheory" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AlgorithmStudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Mathematics.bj2609.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Mathematics.bj2609" />
-      <option name="MAIN_CLASS_NAME" value="Mathematics.bj2609.Bj2609Test" />
-      <option name="METHOD_NAME" value="testNumberTheory" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestBj1978" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AlgorithmStudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Mathematics.bj1978.testclass.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Mathematics.bj1978.testclass" />
-      <option name="MAIN_CLASS_NAME" value="Mathematics.bj1978.testclass.TestBj1978" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestBj1978.소수_구하기_테스트" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AlgorithmStudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Mathematics.bj1978.testclass.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Mathematics.bj1978.testclass" />
-      <option name="MAIN_CLASS_NAME" value="Mathematics.bj1978.testclass.TestBj1978" />
-      <option name="METHOD_NAME" value="소수_구하기_테스트" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestBj1978" />
-        <item itemvalue="JUnit.TestBj1978.소수_구하기_테스트" />
-        <item itemvalue="JUnit.Bj2609Test" />
-        <item itemvalue="JUnit.Bj2609Test.testNumberTheory" />
-        <item itemvalue="Application.Mathematics.bj2609.Main" />
+        <item itemvalue="JUnit.Bj1978Test.testDecimalCnt" />
+        <item itemvalue="Application.Mathematics.bj1978.Main" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.Bj1978Test.testDecimal" />
+        <item itemvalue="JUnit.Bj1978Test" />
       </list>
     </recent_temporary>
   </component>
@@ -170,7 +187,7 @@
       <workItem from="1671702719775" duration="7084000" />
       <workItem from="1671792341883" duration="9123000" />
       <workItem from="1672035273942" duration="2921000" />
-      <workItem from="1672041392737" duration="222000" />
+      <workItem from="1672041392737" duration="9213000" />
     </task>
     <servers />
   </component>

@@ -22,19 +22,21 @@ M ~ N까지 반복문을 돌면서 X%2 == 0 이 아닌 값을 출력한다.
 
 ### 해결방법
 
-- 참고 전
+- 에라토스네테스의 체 참고 전 접근이 잘못되었음
   <pre>
   for (int i = 2; i <= Math.sqrt(n) ; i++) {
     System.out.println(i);
   }
   </pre>
 
-- 참고 후
-    <pre>   
-    for (int i = 2; i <= Math.sqrt(n) ; i++) {
-        for (int j = i*i; j <= n; j+=i) {
-            arr[j] = true;
-        }
-    }
-    </pre>
+- 에라토스네테스의 체참고 후
+  - 아래의 방식을 이용하여 배수가 되는 값을 찾아서 제거한다. <br> 그에 따라 false는 소수만 남게 된다.
+      <pre>   
+      for (int i = 2; i <= Math.sqrt(n) ; i++) {
+          for (int j = i*i; j <= n; j+=i) {
+              arr[j] = true;
+          }
+      }
+      </pre>
+
 
