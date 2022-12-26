@@ -18,4 +18,24 @@ M이상 N이하의 소수를 모두 출력하는 프로그램을 작성하시오
 
 ### 접근
 M ~ N까지 반복문을 돌면서 X%2 == 0 이 아닌 값을 출력한다.
+2의 배수만 출력되는 문제가 발생됨
+
+### 해결방법
+
+- 에라토스네테스의 체 참고 전 접근이 잘못되었음
+  <pre>
+  for (int i = 2; i <= Math.sqrt(n) ; i++) {
+    System.out.println(i);
+  }
+  </pre>
+
+- 에라토스네테스의 체참고 후
+    <pre>   
+    for (int i = 2; i <= Math.sqrt(n) ; i++) {
+        for (int j = i*i; j <= n; j+=i) {
+            arr[j] = true;
+        }
+    }
+    </pre>
+
 
