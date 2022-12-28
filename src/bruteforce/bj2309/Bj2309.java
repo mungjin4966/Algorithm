@@ -20,19 +20,19 @@ public class Bj2309 {
         }
 
         for (int i = 0; i < 8; i++) {
-            for (int j = 0; j < 9; j++) {
+            for (int j = i+1; j < 9; j++) {
                 if(sum - numbers[i]-numbers[j] == 100){
                     numbers[i] = 0;
                     numbers[j] = 0;
                     Arrays.sort(numbers);
                     for (int k = 2; k < 9; k++) {
-                        System.out.println(numbers[k]);
+                        sb.append(numbers[k]+"\n");
                     }
                 }
                 break;
             }
         }
 
-        return null;
+        return sb;
     }
 }
