@@ -60,10 +60,7 @@ public class Bj3085 {
             }
         }
 
-
-        System.out.println(max);
-
-        return 0;
+        return max;
     }
 
     private static int search() {
