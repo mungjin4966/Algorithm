@@ -28,30 +28,58 @@ public class Bj1107 {
         Arrays.fill(remocon, true);
 
         for (int i = 0; i < remocon.length; i++) {
-            for (int j = 0; j < brokenNums.length ; j++) {
-                if(i == brokenNums[j]){
+            for (int j = 0; j < brokenNums.length; j++) {
+                if (i == brokenNums[j]) {
                     remocon[i] = false;
                 }
             }
         }
 
         int cnt = 0;
-        int[] value = new int[n.length()];
+        String value = "";
 
         if (live == Integer.parseInt(n)) {
             System.out.println(cnt);
+            return cnt;
         }
+
 
         for (int i = 0; i < target.length; i++) {
             for (int l = 0; l < remocon.length; l++) {
-                if(Integer.parseInt(String.valueOf(target[i])) == l && remocon[l]){
-                    value[i] = l;
+                if (Integer.parseInt(String.valueOf(target[i])) == l && remocon[l]) {
+                    cnt++;
+                    value += String.valueOf(l);
                 }
-                
+                if (Integer.parseInt(String.valueOf(target[i])) == l && !remocon[l]) {
+                    for (int j = l; j <= 9; j++) {
+                        if (remocon[j]) {
+                            cnt++;
+                            value += String.valueOf(j);
+                            break;
+                        }
+                    }
+                }
             }
+            System.out.println(value);
         }
 
+        int result = Integer.parseInt(value);
 
-        return 0;
+        while (true){
+            if(Integer.parseInt(n) == result){
+                break;
+            }
+            else{
+                cnt++;
+                if(result > Integer.parseInt(n)){
+                    result--;
+                }else{
+                    result++;
+                }
+            }
+        }
+        System.out.println(cnt);
+
+        return cnt;
     }
 }
