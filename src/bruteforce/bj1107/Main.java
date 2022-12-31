@@ -6,25 +6,30 @@ import java.util.StringTokenizer;
 public class Main {
     static boolean[] broken;
     public static void main(String[] agrs) throws IOException {  BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        // 사용자 입력받음
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
-
+        // N의 값을 넣음
         int N = Integer.parseInt(br.readLine());
+        // M의 값을 넣음
         int M = Integer.parseInt(br.readLine());
+        // 리모콘 배열을 생성함
         broken = new boolean[10];
 
-        if (M != 0) {
+        if (M != 0) {// 고장난 버튼이 있는 경우
             StringTokenizer st = new StringTokenizer(br.readLine());
-            for (int i = 0; i < M; i++) {
+            for (int i = 0; i < M; i++) { // 고장난 버튼이 있는 만큼 받음
                 int num = Integer.parseInt(st.nextToken());
-                broken[num] = true;
+                broken[num] = true; // 고장난 버튼을 입력함
             }
         }
 
-        int min_cnt = Math.abs(N - 100);    // +,- 로만 누르는 경우
-        for (int i = 0; i <= 1000000; i++) {
+        // +,- 버튼으로 이동했을 경우 나오는 값
+        int min_cnt = Math.abs(N - 100);
+        for (int i = 0; i <= 1000000; i++) { // 모든 경우의 수를 생각해서 1000000 만큼의 반복을 돌림
             int len = check(i);   // 숫자버튼 누르는 횟수
-            if (len > 0) {
+            if (len > 0) { // 숫자를 누르는 횟수가 0보다 큰 경우
                 int press = Math.abs(N - i);  // +,- 버튼 누르는 횟수
+                // 여기서 최소값이 현재 값보다 작은게 있다면 대입됨
                 min_cnt = Math.min(min_cnt, len + press);   // 최소 이동 횟수 계산
             }
         }
@@ -37,23 +42,35 @@ public class Main {
     }
 
     static int check(int n) {
+        // N의 값이 0인경우
         if (n == 0) {
+            //0번째 값이 고장난 경우
             if (broken[0]) {
-                return 0;
+                return 0; // 값을 못누름
             } else {
-                return 1;
+                return 1; // 고장나지 않은 경우 0을 누름
             }
         }
+
         int len = 0;
+        // N이 0보다 큰경우 반복함
+        // 버튼으로 입력하는 경우 이동되는 값을 확인함
         while (n > 0) {
-            if (broken[n % 10]) {   // 고장난 버튼이 있는 경우
+            // N%10의 값이 고장난 경우 못누름
+            if (broken[n % 10]) {
                 return 0;
             }
+            // N의 값이 고장나지 않은 경우
+            // 100 / 10 = 10
             n /= 10;
             len += 1;   // 숫자버튼 누르는 횟수 증가
         }
         return len;
     }
+
+    /*
+    * 내가 작성한 코드
+    * */
 //        int live = 100;
 //        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 //        String n = br.readLine();
