@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bec815a4-4560-4f4f-a5d4-d11f9cd3e17c" name="Changes" comment="# &lt;type&gt;: &lt;subject&gt;&#10;##### Subject 50 characters ################# -&gt; |&#10;&#10;&#10;# Body Message&#10;######## Body 72 characters ####################################### -&gt; |&#10;&#10;# Issue Tracker Number or URL&#10;&#10;# --- COMMIT END ---&#10;# Type can be&#10;#   feat    : new feature&#10;#   fix     : bug fix&#10;#   refactor: refactoring production code&#10;#   style   : formatting, missing semi colons, etc; no code change&#10;#   docs    : changes to documentation&#10;#   test    : adding or refactoring tests&#10;#             no productin code change&#10;#   chore   : updating grunt tasks etc&#10;#             no production code change&#10;# ------------------&#10;# Remember me ~&#10;#   Capitalize the subject line&#10;#     제목줄은 대문자로 시작한다.&#10;#   Use the imperative mood in the subject line&#10;#     제목줄은 명령어로 작성한다.&#10;#   Do not end the subject line with a period&#10;#     제목줄은 마침표로 끝내지 않는다.&#10;#   Separate subject from body with a blank line&#10;#     본문과 제목에는 빈줄을 넣어서 구분한다.&#10;#   Use the body to explain what and why vs. how&#10;#     본문에는 &quot;어떻게&quot; 보다는 &quot;왜&quot;와 &quot;무엇을&quot; 설명한다.&#10;#   Can use multiple lines with &quot;-&quot; for bullet points in body&#10;#     본문에 목록을 나타낼때는 &quot;-&quot;로 시작한다.&#10;# ------------------">
-      <change afterPath="$PROJECT_DIR$/src/bruteforce/bj14500/Bj14500.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bruteforce/bj14500/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bruteforce/bj14500/REDEME.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bruteforce/bj14500/img.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmStudy/bruteforce/bj1107/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgorithmStudy/bruteforce/bj1107/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmStudy/bruteforce/bj1107/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgorithmStudy/bruteforce/bj1107/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmStudy/src/bruteforce/bj1107/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgorithmStudy/src/bruteforce/bj1107/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bruteforce/codeTest/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bruteforce/codeTest/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,16 +67,18 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="bruteforce.bj15650" />
+      <recent name="bruteforce.bj9095" />
       <recent name="bruteforce.bj2309" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.bruteforce.bj14500.Main">
-    <configuration name="bruteforce.bj1107.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bruteforce.bj1107.Main" />
+  <component name="RunManager" selected="Application.bruteforce.codeTest.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bruteforce.bj15651.Main" />
       <module name="AlgorithmStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bruteforce.bj1107.*" />
+          <option name="PATTERN" value="bruteforce.bj15651.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,12 +86,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="bruteforce.bj14500.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bruteforce.bj14500.Main" />
+    <configuration name="bruteforce.bj15650.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bruteforce.bj15650.Main" />
       <module name="AlgorithmStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bruteforce.bj14500.*" />
+          <option name="PATTERN" value="bruteforce.bj15650.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,12 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="bruteforce.bj2309.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bruteforce.bj2309.Main" />
+    <configuration name="bruteforce.codeTest.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bruteforce.codeTest.Main" />
       <module name="AlgorithmStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bruteforce.bj2309.*" />
+          <option name="PATTERN" value="bruteforce.codeTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,33 +112,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Bj2309Test.dwarf" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Bj15650Test.test15650" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AlgorithmStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bruteforce.bj2309.*" />
+          <option name="PATTERN" value="bruteforce.bj15650.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="bruteforce.bj2309" />
-      <option name="MAIN_CLASS_NAME" value="bruteforce.bj2309.Bj2309Test" />
-      <option name="METHOD_NAME" value="dwarf" />
+      <option name="PACKAGE_NAME" value="bruteforce.bj15650" />
+      <option name="MAIN_CLASS_NAME" value="bruteforce.bj15650.Bj15650Test" />
+      <option name="METHOD_NAME" value="test15650" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Bj2609Test.testNumberTheory" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Bj15650Test.testnumbers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AlgorithmStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Mathematics.bj2609.*" />
+          <option name="PATTERN" value="bruteforce.bj15650.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Mathematics.bj2609" />
-      <option name="MAIN_CLASS_NAME" value="Mathematics.bj2609.Bj2609Test" />
-      <option name="METHOD_NAME" value="testNumberTheory" />
+      <option name="PACKAGE_NAME" value="bruteforce.bj15650" />
+      <option name="MAIN_CLASS_NAME" value="bruteforce.bj15650.Bj15650Test" />
+      <option name="METHOD_NAME" value="testnumbers" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -149,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.bruteforce.bj14500.Main" />
-        <item itemvalue="Application.bruteforce.bj1107.Main" />
-        <item itemvalue="JUnit.Bj2309Test.dwarf" />
-        <item itemvalue="Application.bruteforce.bj2309.Main" />
-        <item itemvalue="JUnit.Bj2609Test.testNumberTheory" />
+        <item itemvalue="Application.bruteforce.codeTest.Main" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.Bj15650Test.test15650" />
+        <item itemvalue="JUnit.Bj15650Test.testnumbers" />
+        <item itemvalue="Application.bruteforce.bj15650.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -169,7 +166,16 @@
       <workItem from="1671609362221" duration="891000" />
       <workItem from="1671610285487" duration="32611000" />
       <workItem from="1672393417441" duration="17530000" />
-      <workItem from="1672565652209" duration="1349000" />
+      <workItem from="1672565652209" duration="29782000" />
+      <workItem from="1673088373453" duration="598000" />
+      <workItem from="1673089943027" duration="928000" />
+      <workItem from="1673166873135" duration="30000" />
+      <workItem from="1673166919413" duration="91000" />
+      <workItem from="1673257811986" duration="605000" />
+      <workItem from="1673260272892" duration="1013000" />
+      <workItem from="1673264969960" duration="357000" />
+      <workItem from="1673453021066" duration="8000" />
+      <workItem from="1673520561241" duration="1307000" />
     </task>
     <servers />
   </component>
